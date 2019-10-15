@@ -1,23 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-	int square(int n);
-	
-	int main(void)
+	int main(void)	
+{
+	int i;
+	int max=45;
+	 
+	for(i=0;i<6;i++)
 	{
-		int result;
-		result=square(5);
-		printf("%d",result);
-	
+	printf ("%d", 1+rand()%max);
 	}
-	
-	int square(int n)
-	{
-		return(n*n);
-	}
-
+	return 0;
+}
 	
 
 
